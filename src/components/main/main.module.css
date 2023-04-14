@@ -2,14 +2,12 @@
   margin: 0;
   padding: 0;
   width: 1024px;
-  height: 768px;
   position: relative;
-  overflow: hidden;
 }
 
 .title {
   margin: 0;
-  padding: 130px 65px 0;
+  padding: 160px 65px 0;
   width: 895px;
   text-transform: uppercase;
 }

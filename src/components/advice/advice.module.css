@@ -1,0 +1,109 @@
+.container {
+  margin: 0;
+  padding: 0;
+  width: 1024px;
+  position: relative;
+}
+
+.titleContainer {
+  margin: 161px 1px 1px 335px;
+  padding: 0;
+  width: 600px;
+}
+
+.tagline {
+  margin: 0;
+  padding-left: 6px;
+  font-size: 28px;
+  letter-spacing: 1.1px;
+  font-weight: normal;
+  font-family: "DINPro";
+  text-transform: uppercase;
+}
+
+.brand {
+  margin: 0;
+  padding: 0;
+  font-size: 95px;
+  font-weight: normal;
+  letter-spacing: 11px;
+  font-family: "Gilroy";
+  text-transform: uppercase;
+}
+
+.boldElement {
+  margin: 0;
+  padding: 0;
+  padding-left: 2px;
+  font-family: "GilroyExtraBold";
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 564px;
+  left: 670px;
+}
+
+.hintsContainer {
+  margin: 67px 1px 1px 234px;
+  padding: 0;
+  display: flex;
+  column-gap: 41px;
+}
+
+.hinFirst {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 396px;
+  height: 264px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 42px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hintSecond {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 262px;
+  height: 149px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 42px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.iconDishes {
+  margin: 0;
+  padding: 0;
+  width: 69px;
+  position: absolute;
+  top: -34px;
+  left: 105px;
+}
+
+.iconNotes {
+  margin: 0;
+  padding: 0;
+  width: 69px;
+  position: absolute;
+  top: -25px;
+  left: 40px;
+}
+
+.hintText {
+  font-family: "DINPro";
+  font-size: 25px;
+}
+
+.hintFirstText {
+  margin: 0;
+  padding: 47px 15px 0px 106px;
+}
+
+.hintSecondText {
+  margin: 0;
+  padding: 47px 80px 0px 42px;
+}

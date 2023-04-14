@@ -16,7 +16,7 @@ const Main: FC = () => {
         <h2 className={styleMain.text}>коммерческое задание</h2>
       </div>
       <div className={styleMain.button}>
-        <Button text={"Что дальше?"} />
+        <Button text={"Что дальше?"} type={"Further"} />
       </div>
       <Decoration />
     </section>

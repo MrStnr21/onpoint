@@ -1,37 +1,37 @@
 import { FC } from "react";
 
-import styleDecoration from "./decoration.module.css";
+import stylesDecoration from "./decoration.module.css";
 
-import pinkSpermBlur from "../../../images/common/pink_sperm.png";
-import pinkSperm from "../../../images/common/pink_sperm_1.png";
-import bakti1 from "../../../images/common/bakti_1.png";
-import layer4 from "../../../images/common/Layer 4.png";
-import layer4v1 from "../../../images/common/Layer 4 copy.png";
-import layer4v2 from "../../../images/common/Layer 4 copy 2.png";
-import layer5 from "../../../images/common/Layer 5.png";
-import layer7 from "../../../images/common/Layer 7.png";
-import layer8 from "../../../images/common/Layer 8.png";
+import pinkSpermBlur from "../../../images/main/pink_sperm.png";
+import pinkSperm from "../../../images/main/pink_sperm_1.png";
+import bakti1 from "../../../images/main/bakti_1.png";
+import layer4 from "../../../images/main/Layer 4.png";
+import layer4v1 from "../../../images/main/Layer 4 copy.png";
+import layer4v2 from "../../../images/main/Layer 4 copy 2.png";
+import layer5 from "../../../images/main/Layer 5.png";
+import layer7 from "../../../images/main/Layer 7.png";
+import layer8 from "../../../images/main/Layer 8.png";
 
 const Decoration: FC = () => {
   return (
-    <section className={styleDecoration.container}>
+    <section className={stylesDecoration.container}>
       <img
-        className={styleDecoration.pinkSpermBlur}
+        className={stylesDecoration.pinkSpermBlur}
         src={pinkSpermBlur}
         alt="сперматазоид"
       />
       <img
-        className={styleDecoration.pinkSperm}
+        className={stylesDecoration.pinkSperm}
         src={pinkSperm}
         alt="сперматазоид"
       />
-      <img className={styleDecoration.layer7} src={layer7} alt="палочка" />
-      <img className={styleDecoration.bakti1} src={bakti1} alt="кружок" />
-      <img className={styleDecoration.layer5} src={layer5} alt="кружок" />
-      <img className={styleDecoration.layer8} src={layer8} alt="кружок" />
-      <img className={styleDecoration.layer4} src={layer4} alt="кружок" />
-      <img className={styleDecoration.layer4v2} src={layer4v2} alt="кружок" />
-      <img className={styleDecoration.layer4v1} src={layer4v1} alt="кружок" />
+      <img className={stylesDecoration.layer7} src={layer7} alt="палочка" />
+      <img className={stylesDecoration.bakti1} src={bakti1} alt="кружок" />
+      <img className={stylesDecoration.layer5} src={layer5} alt="кружок" />
+      <img className={stylesDecoration.layer8} src={layer8} alt="кружок" />
+      <img className={stylesDecoration.layer4} src={layer4} alt="кружок" />
+      <img className={stylesDecoration.layer4v2} src={layer4v2} alt="кружок" />
+      <img className={stylesDecoration.layer4v1} src={layer4v1} alt="кружок" />
     </section>
   );
 };

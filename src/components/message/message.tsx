@@ -2,7 +2,7 @@ import { FC } from "react";
 
 import stylesMessage from "./message.module.css";
 
-import spermGroup from "../../images/common/spermGroup.png";
+import spermGroup from "../../images/message/spermGroup.png";
 
 const Message: FC = () => {
   return (
