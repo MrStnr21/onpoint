@@ -2,9 +2,8 @@ import { FC } from "react";
 
 import styleMain from "./main.module.css";
 
-import arrow from "../../images/common/arrow-right.svg";
-
-import { Decoration } from "../decoration/decoration";
+import { Decoration } from "./decoration/decoration";
+import { Button } from "../ui/button/button";
 
 const Main: FC = () => {
   return (
@@ -16,12 +15,9 @@ const Main: FC = () => {
         </h2>
         <h2 className={styleMain.text}>коммерческое задание</h2>
       </div>
-      <button className={styleMain.buttonContainer}>
-        <div className={styleMain.buttonElement}>
-          <img className={styleMain.buttonArrow} src={arrow} alt="далее" />
-        </div>
-        <p className={styleMain.buttonText}>Что дальше?</p>
-      </button>
+      <div className={styleMain.button}>
+        <Button text={"Что дальше?"} />
+      </div>
       <Decoration />
     </section>
   );

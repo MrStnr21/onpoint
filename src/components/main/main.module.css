@@ -1,7 +1,15 @@
+.container {
+  margin: 0;
+  padding: 0;
+  width: 1024px;
+  height: 768px;
+  position: relative;
+  overflow: hidden;
+}
+
 .title {
   margin: 0;
   padding: 130px 65px 0;
-
   width: 895px;
   text-transform: uppercase;
 }
@@ -35,53 +43,10 @@
   font-family: "GilroyExtraBold";
 }
 
-.buttonContainer {
+.button {
   margin: 0;
   padding: 0;
-  border-radius: 39px;
-  width: 287px;
-  height: 79px;
   position: absolute;
-  border: none;
   top: 465px;
   left: 628px;
-  background-color: #ff6a9f;
-  display: flex;
-  align-items: center;
-  column-gap: 16px;
-  z-index: 2;
-  cursor: pointer;
-  transition: ease-in-out 0.2s;
-}
-
-.buttonContainer:hover {
-  opacity: 0.8;
-}
-
-.buttonElement {
-  margin-left: 20px;
-  padding: 0;
-  border-radius: 100%;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  box-shadow: 3px 2px 4px 1px rgba(247, 247, 247, 0.5),
-    -3px -2px 4px 1px rgba(0, 0, 0, 0.5);
-}
-
-.buttonArrow {
-  margin: 0;
-  padding: 0;
-  width: 25px;
-}
-
-.buttonText {
-  margin: 0;
-  padding: 0;
-  font-size: 28px;
-  font-family: "DINPro";
-  letter-spacing: 0.5px;
 }

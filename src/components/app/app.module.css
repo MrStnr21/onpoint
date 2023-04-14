@@ -1,8 +1,8 @@
 .container {
   margin: 0;
-  padding: 0;
-  width: 300vw;
+  width: 100vw;
   height: 100vh;
+  overflow: scroll;
   background-image: url("../../images/background/bg.png");
   background-size: cover;
 }
@@ -12,26 +12,27 @@
   padding: 0;
   display: flex;
   flex-direction: row;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
 }
 
 .logoHome {
   margin: 0;
   padding: 0;
   width: 154px;
-  height: 26px;
   position: sticky;
-  top: 5%;
-  left: 10%;
+  top: 30px;
+  left: 65px;
   z-index: 9999;
 }
 
 .logoCompany {
   margin: 0;
   padding: 0;
-  width: 72px;
-  height: 15px;
+  width: 58px;
   position: fixed;
-  bottom: 5%;
-  left: 10%;
+  bottom: 8px;
+  left: 69px;
   z-index: 9999;
 }
