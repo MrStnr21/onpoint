@@ -39,7 +39,7 @@
 <details><summary><b>Развернуть</b></summary>
 
 ![main-pahe](https://user-images.githubusercontent.com/104725482/232231048-02f5b55c-cb35-4c09-ba21-d027de8e5f32.png)
-![message-page](https://user-images.githubusercontent.com/104725482/232231054-e3aa0c1c-6954-46ae-b98c-a9fd07d63580.png)
+![message-page](https://user-images.githubusercontent.com/104725482/232233189-f3f38762-0501-4fbf-8c9a-44a963bac57a.png)
 ![advice-page](https://user-images.githubusercontent.com/104725482/232231056-83b981a9-782a-4904-88eb-063423d3e3b7.png)
 ![advice1-page](https://user-images.githubusercontent.com/104725482/232231058-cba274a0-9b50-461a-a554-f49971e85d38.png)
 
