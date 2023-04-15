@@ -13,12 +13,12 @@ const App: FC = (): JSX.Element => {
   const [currentPage, setCurrentPage] = useState<number>(0);
   const [positionX, setPositionX] = useState<number>(0);
 
-  const handleStart = (event: React.TouchEvent<HTMLDivElement>) => {
+  const handleStart = (event: React.TouchEvent<HTMLDivElement>): void => {
     const tapStart = Math.ceil(event.changedTouches[0].clientX);
     setPositionX(tapStart);
   };
 
-  const handleEnd = (event: React.TouchEvent<HTMLDivElement>) => {
+  const handleEnd = (event: React.TouchEvent<HTMLDivElement>): void => {
     const tapEnd = Math.floor(event.changedTouches[0].clientX);
     let resultX = positionX - tapEnd;
 

@@ -21,10 +21,11 @@ const Pagination: FC<IPagination> = ({
     pagination.push(i);
   }
 
-  const handlePage = (direction: string) => {
+  const handleSwipe = (direction: string): void => {
     if (direction === "left" && currentPage > 1) {
       setCurrentPage(currentPage - 1);
     }
+
     if (direction === "right" && currentPage < quantity) {
       setCurrentPage(currentPage + 1);
     }
@@ -35,7 +36,7 @@ const Pagination: FC<IPagination> = ({
       <button
         className={stylesPagination.leftButton}
         onClick={() => {
-          handlePage("left");
+          handleSwipe("left");
         }}
       >
         <img
@@ -44,14 +45,14 @@ const Pagination: FC<IPagination> = ({
           alt="назад"
         />
       </button>
-      {pagination.map((elem, id) => {
-        if (elem === currentPage) {
+      {pagination.map((item, id) => {
+        if (item === currentPage) {
           return (
             <div
               key={id}
-              className={`${stylesPagination.pagination}  ${stylesPagination.active} `}
+              className={`${stylesPagination.pagination}  ${stylesPagination.active}`}
               onClick={() => {
-                setCurrentPage(elem);
+                setCurrentPage(item);
               }}
             />
           );
@@ -61,7 +62,7 @@ const Pagination: FC<IPagination> = ({
               key={id}
               className={`${stylesPagination.pagination}`}
               onClick={() => {
-                setCurrentPage(elem);
+                setCurrentPage(item);
               }}
             />
           );
@@ -70,7 +71,7 @@ const Pagination: FC<IPagination> = ({
       <button
         className={stylesPagination.rightButton}
         onClick={() => {
-          handlePage("right");
+          handleSwipe("right");
         }}
       >
         <img
