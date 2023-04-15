@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# onpoint
+### *Тестовое задание от [onpoint](https://onpoint.ru/)*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Описание проекта
+Приложение с анимированными слайдами вымышленного бренда "BREND XY" для Ipad. Можно свайпать слайды, нажимать на кнопки, открывать/закрывать модальное окно с пагинацией.
 
-## Available Scripts
+## Функционал:
+- верстка под фиксированное разрешение Ipad(1024x768);
+- свайпы слайдов;
+- анимации.
 
-In the project directory, you can run:
 
-### `npm start`
+## Стек технологий:
+- TypeScript;
+- React;
+- JS;
+- CSS;
+- HTML.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Установка и запуск проекта:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Клонировать репозиторий:
 
-### `npm test`
+    git clone https://github.com/MrStnr21/onpoint.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Установить зависимости:
 
-### `npm run build`
+    npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Собрать проект:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    npm run build
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Запустить проект:
 
-### `npm run eject`
+    npm run start
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Скриншоты:
+<details><summary><b>Развернуть</b></summary>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![main-pahe](https://user-images.githubusercontent.com/104725482/232231048-02f5b55c-cb35-4c09-ba21-d027de8e5f32.png)
+![message-page](https://user-images.githubusercontent.com/104725482/232231054-e3aa0c1c-6954-46ae-b98c-a9fd07d63580.png)
+![advice-page](https://user-images.githubusercontent.com/104725482/232231056-83b981a9-782a-4904-88eb-063423d3e3b7.png)
+![advice1-page](https://user-images.githubusercontent.com/104725482/232231058-cba274a0-9b50-461a-a554-f49971e85d38.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+</details>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Ссылка на сайт: https://mrstnr21.github.io/onpoint/
