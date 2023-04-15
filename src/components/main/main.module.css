@@ -1,0 +1,51 @@
+.container {
+  margin: 0;
+  padding: 0;
+  min-width: 1024px;
+  position: relative;
+}
+
+.title {
+  margin: 0;
+  padding: 160px 65px 0;
+  width: 895px;
+  text-transform: uppercase;
+}
+
+.hello {
+  margin: 0;
+  padding-bottom: 17px;
+  font-size: 28px;
+  letter-spacing: 1.5px;
+  font-weight: normal;
+  font-family: "DINPro";
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+  font-size: 115px;
+  font-weight: normal;
+  word-spacing: 10px;
+  line-height: 1.01;
+  letter-spacing: 2.2px;
+  font-family: "Gilroy";
+  position: relative;
+  z-index: 1;
+}
+
+.boldElement {
+  margin: 0;
+  padding: 0;
+  padding-left: 36px;
+  font-family: "GilroyExtraBold";
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 465px;
+  left: 628px;
+  z-index: 2;
+}

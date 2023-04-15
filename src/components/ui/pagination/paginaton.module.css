@@ -1,0 +1,51 @@
+.paginationContainer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 13px;
+}
+
+.rightButton,
+.leftButton {
+  margin: 0;
+  padding: 0;
+  width: 13px;
+  height: 13px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.rightButton:hover,
+.leftButton:hover {
+  opacity: 0.7;
+}
+
+.rightButtonIcon {
+  margin: 0;
+  padding: 0;
+  width: 10px;
+}
+
+.leftButtonIcon {
+  margin: 0;
+  padding: 0;
+  width: 10px;
+  rotate: 180deg;
+}
+
+.pagination {
+  margin: 0;
+  padding: 0;
+  width: 11px;
+  height: 11px;
+  border: 1.5px solid #343434;
+  border-radius: 7px;
+  background-color: initial;
+}
+
+.active {
+  border: 1.5px solid #fc6da9;
+  background-color: #fc6da9;
+}

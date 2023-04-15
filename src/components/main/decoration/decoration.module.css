@@ -1,0 +1,196 @@
+.container {
+  margin: 0;
+  padding: 0;
+  width: 1024px;
+  height: 768px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pinkSpermBlur {
+  margin: 0;
+  padding: 0;
+  width: 274px;
+  position: absolute;
+  top: 592px;
+  left: 4px;
+}
+
+.pinkSperm {
+  margin: 0;
+  padding: 0;
+  width: 589px;
+  position: absolute;
+  top: 155px;
+  left: 433px;
+  z-index: 9999;
+}
+
+.layer7 {
+  margin: 0;
+  padding: 0;
+  width: 215px;
+  position: absolute;
+  top: 72px;
+  left: -89px;
+}
+
+.bakti1 {
+  margin: 0;
+  padding: 0;
+  width: 73px;
+  position: absolute;
+  top: 503px;
+  left: 23px;
+  animation: max-to-min 20s ease-in-out infinite;
+}
+
+.layer5 {
+  margin: 0;
+  padding: 0;
+  width: 62px;
+  position: absolute;
+  top: 61px;
+  left: 745px;
+  animation: top-to-down 10s ease-in-out infinite;
+}
+
+.layer8 {
+  margin: 0;
+  padding: 0;
+  width: 110px;
+  position: absolute;
+  top: 201px;
+  left: 862px;
+  animation: down-to-top 20s ease-in-out infinite;
+}
+
+.layer4 {
+  margin: 0;
+  padding: 0;
+  width: 228px;
+  position: absolute;
+  top: 641px;
+  left: 542px;
+  animation: min-to-max 20s ease-in-out infinite;
+}
+
+.layer4v2 {
+  margin: 0;
+  padding: 0;
+  width: 76px;
+  position: absolute;
+  top: 31px;
+  left: 913px;
+}
+
+.layer4v1 {
+  margin: 0;
+  padding: 0;
+  width: 76px;
+  position: absolute;
+  top: 632px;
+  left: 352px;
+}
+
+@keyframes top-to-down {
+  0% {
+    left: 745px;
+    top: 61px;
+  }
+
+  50% {
+    left: 785px;
+    top: 70px;
+  }
+
+  100% {
+    right: 745px;
+    top: 61px;
+  }
+}
+
+@keyframes down-to-top {
+  0% {
+    top: 201px;
+    left: 862px;
+  }
+
+  25% {
+    top: 164px;
+    left: 716px;
+  }
+
+  50% {
+    transform: rotate(90deg);
+    top: 87px;
+    left: 762px;
+  }
+
+  75% {
+    top: 136px;
+    left: 830px;
+  }
+
+  100% {
+    top: 201px;
+    left: 862px;
+  }
+}
+
+@keyframes min-to-max {
+  0% {
+    top: 641px;
+    left: 542px;
+  }
+
+  25% {
+    top: 626px;
+    left: 527px;
+  }
+
+  50% {
+    transform: scale(1.1);
+    top: 621px;
+    left: 551px;
+  }
+
+  75% {
+    top: 651px;
+    left: 564px;
+  }
+
+  100% {
+    top: 641px;
+    left: 542px;
+  }
+}
+
+@keyframes max-to-min {
+  0% {
+    top: 503px;
+    left: 23px;
+  }
+
+  25% {
+    top: 545px;
+    left: 49px;
+  }
+
+  50% {
+    transform: scale(0.7);
+    top: 592px;
+    left: 83px;
+  }
+
+  75% {
+    top: 571px;
+    left: 83px;
+  }
+
+  100% {
+    top: 503px;
+    left: 23px;
+  }
+}

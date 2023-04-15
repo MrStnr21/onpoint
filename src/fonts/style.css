@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy"), url("./Gilroy.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GilroyExtraBold";
+  src: local("GilroyExtraBold"),
+    url("./Gilroy-ExtraBold.ttf") format("truetype");
+  font-weight: 900;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "DINPro";
+  src: local("DINPro"), url("./DINPro.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
