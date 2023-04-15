@@ -8,9 +8,10 @@ import plusIcon from "../../../images/common/plus.svg";
 interface IButton {
   text: string;
   type: string;
+  onClick?: () => void;
 }
 
-const Button: FC<IButton> = ({ text, type }) => {
+const Button: FC<IButton> = ({ text, type, onClick }): JSX.Element => {
   return (
     <>
       <button
@@ -19,6 +20,7 @@ const Button: FC<IButton> = ({ text, type }) => {
             ? `${stylesButton.buttonContainer} ${stylesButton.buttonContainerPlus}`
             : `${stylesButton.buttonContainer}`
         }
+        onClick={onClick}
       >
         <div className={stylesButton.buttonElement}>
           <img

@@ -5,7 +5,11 @@ import styleMain from "./main.module.css";
 import { Decoration } from "./decoration/decoration";
 import { Button } from "../ui/button/button";
 
-const Main: FC = () => {
+interface IMain {
+  setCurrentPage: () => void;
+}
+
+const Main: FC<IMain> = ({ setCurrentPage }): JSX.Element => {
   return (
     <section className={styleMain.container}>
       <div className={styleMain.title}>
@@ -16,7 +20,11 @@ const Main: FC = () => {
         <h2 className={styleMain.text}>коммерческое задание</h2>
       </div>
       <div className={styleMain.button}>
-        <Button text={"Что дальше?"} type={"Further"} />
+        <Button
+          text={"Что дальше?"}
+          type={"Further"}
+          onClick={setCurrentPage}
+        />
       </div>
       <Decoration />
     </section>

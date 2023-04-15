@@ -1,11 +1,11 @@
 .container {
   margin: 0;
   padding: 0;
-  width: 300vw;
+  width: 100vw;
   height: 100vh;
-  display: flex;
-  background-image: url("../../images/background/bg.png");
-  background-size: contain;
+  overflow: hidden;
+  /* background-image: url("../../images/background/bg.png");
+  background-size: contain; */
 }
 
 .logoHome {
@@ -26,4 +26,16 @@
   bottom: 8px;
   left: 69px;
   z-index: 9999;
+}
+
+.carousel {
+  margin: 0;
+  padding: 0;
+  width: max-content;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  background-image: url("../../images/background/bg.png");
+  background-size: contain;
 }

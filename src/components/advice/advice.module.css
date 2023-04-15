@@ -1,12 +1,12 @@
 .container {
   margin: 0;
   padding: 0;
-  width: 1024px;
+  min-width: 1024px;
   position: relative;
 }
 
 .titleContainer {
-  margin: 161px 1px 1px 335px;
+  margin: 162px 1px 1px 345px;
   padding: 0;
   width: 600px;
 }
@@ -24,6 +24,7 @@
 .brand {
   margin: 0;
   padding: 0;
+  height: 95px;
   font-size: 95px;
   font-weight: normal;
   letter-spacing: 11px;
@@ -44,10 +45,11 @@
   position: absolute;
   top: 564px;
   left: 670px;
+  z-index: 1;
 }
 
 .hintsContainer {
-  margin: 67px 1px 1px 234px;
+  margin: 88px 1px 1px 234px;
   padding: 0;
   display: flex;
   column-gap: 41px;
@@ -106,4 +108,57 @@
 .hintSecondText {
   margin: 0;
   padding: 47px 80px 0px 42px;
+}
+
+.infoContainer {
+  margin: 0;
+  padding: 0;
+  width: 795px;
+  height: 573px;
+  position: relative;
+}
+
+.titleContainerModal {
+  margin: 0;
+  padding: 39px 1px 1px 177px;
+}
+
+.listContainer {
+  margin: 37px 1px 1px 184px;
+  padding: 0;
+  width: 500px;
+  height: 280px;
+  overflow: hidden;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.listItem {
+  margin: 0;
+  padding: 0 0 18px;
+}
+
+.itemTitle {
+  margin: 0;
+  padding: 0 0 7px;
+  font-family: "GilroyExtraBold";
+  font-size: 24px;
+  color: #8cc9e8;
+}
+
+.itemText {
+  margin: 0;
+  padding: 0;
+  font-family: "DINPro";
+  font-size: 24px;
+  letter-spacing: 0.45px;
+}
+
+.paginationContainer {
+  margin: 35px 0 0 183px;
+  padding: 0;
 }

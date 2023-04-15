@@ -1,7 +1,7 @@
 .container {
   margin: 0;
   padding: 0;
-  width: 1024px;
+  min-width: 1024px;
   position: relative;
 }
 
@@ -47,4 +47,5 @@
   position: absolute;
   top: 465px;
   left: 628px;
+  z-index: 2;
 }

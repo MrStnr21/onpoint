@@ -12,7 +12,7 @@ import layer5 from "../../../images/main/Layer 5.png";
 import layer7 from "../../../images/main/Layer 7.png";
 import layer8 from "../../../images/main/Layer 8.png";
 
-const Decoration: FC = () => {
+const Decoration: FC = (): JSX.Element => {
   return (
     <section className={stylesDecoration.container}>
       <img

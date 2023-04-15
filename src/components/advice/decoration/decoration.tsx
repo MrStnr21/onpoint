@@ -14,7 +14,7 @@ import pinkBubble from "../../../images/advice/1.png";
 import pinkBubbleMid from "../../../images/advice/8.png";
 import pinkBubbleBig from "../../../images/advice/2.png";
 
-const Decoration: FC = () => {
+const Decoration: FC = (): JSX.Element => {
   return (
     <section className={stylesDecoration.container}>
       <img className={stylesDecoration.bottle} src={bottle} alt="бутылка" />
