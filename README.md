@@ -45,4 +45,4 @@
 
 </details>
 
-## Ссылка на сайт: https://mrstnr21.github.io/onpoint/
+## Ссылка на сайт: [Onpoint](https://mrstnr21.github.io/onpoint/)
